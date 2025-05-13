@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100vh;
+    gap: 10px;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 45, 45);
+}
